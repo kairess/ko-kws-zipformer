@@ -1,0 +1,26 @@
+# environment
+.venv/
+third_party/
+__pycache__/
+*.pyc
+# data and experiments (AI Hub / KsponSpeech audio and manifests must not be redistributed)
+data/raw/
+data/manifests/
+data/fbank/
+data/fbank-k/
+data/lang_syl_k2000/transcript.txt
+data/lang_syl_k2000/unigram_*
+exp/
+*.log
+# icefall modules linked by setup.sh
+zipformer/decoder.py
+zipformer/joiner.py
+zipformer/model.py
+zipformer/optim.py
+zipformer/scaling.py
+zipformer/subsampling.py
+zipformer/zipformer.py
+zipformer/export.py
+zipformer/export-onnx-streaming.py
+zipformer/encoder_interface.py
+zipformer/gigaspeech_scoring.py
