@@ -4,7 +4,7 @@
 [icefall](https://github.com/k2-fsa/icefall)의 GigaSpeech KWS 레시피(스트리밍 Zipformer + pruned RNN-T)를 한국어에 맞게 옮겼고,
 추론은 [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx)의 `KeywordSpotter`로 합니다.
 
-- 학습된 모델(ONNX, int8): `https://huggingface.co/<HF 사용자>/ko-kws-zipformer-tiny`
+- 학습된 모델(ONNX, int8): https://huggingface.co/kairess/ko-kws-zipformer-tiny
 - 키워드는 학습 없이 텍스트로 바꿔 넣을 수 있습니다(오픈 어휘).
 - 데모 노트북: [`demo.ipynb`](demo.ipynb) — 키워드 등록, 검출과 전사, 실시간 스트림 지연, 잡음 속 검출, 문턱값, 처리 속도
 
