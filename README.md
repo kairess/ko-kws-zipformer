@@ -147,5 +147,5 @@ bash local/finalize.sh exp/pt5k-tiny2 tiny2 12   # dev로 평균 선택 → 다�
 
 ## 라이선스
 
-- 코드는 Apache License 2.0입니다. icefall(Apache 2.0)의 파일을 수정해 포함합니다.
-- 학습 데이터의 이용 조건은 각 데이터 제공처를 따릅니다. KsponSpeech와 AI Hub 데이터는 AI Hub 이용 약관을 따릅니다.
+- 코드와 학습된 모델은 Apache License 2.0입니다. 코드에는 icefall(Apache 2.0)의 파일을 수정해 포함합니다.
+- 학습 데이터는 포함하지 않으며, 데이터의 이용 조건은 각 제공처를 따릅니다. KsponSpeech와 AI Hub 데이터는 AI Hub 이용 약관을 따릅니다.
