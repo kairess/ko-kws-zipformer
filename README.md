@@ -6,6 +6,7 @@
 
 - 학습된 모델(ONNX, int8): `https://huggingface.co/<HF 사용자>/ko-kws-zipformer-tiny`
 - 키워드는 학습 없이 텍스트로 바꿔 넣을 수 있습니다(오픈 어휘).
+- 데모 노트북: [`demo.ipynb`](demo.ipynb) — 키워드 등록, 검출과 전사, 실시간 스트림 지연, 잡음 속 검출, 문턱값, 처리 속도
 
 ## 결과
 
@@ -142,6 +143,7 @@ bash local/finalize.sh exp/pt5k-tiny2 tiny2 12   # dev로 평균 선택 → 다�
 | `local/` | 데이터 준비, AI Hub 수집·변환, KWS 평가셋 생성, 지표 계산 |
 | `data/lang_syl_k2000/` | BPE 모델과 토큰 목록 |
 | `data/kws-test/` | 다섯 평가셋의 키워드와 양성·음성 발화 ID |
+| `demo.ipynb` | sherpa-onnx 데모 (Hugging Face 모델을 받아 실행) |
 
 ## 라이선스
 
